@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reynaldi Neo</title>
+
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!---css style-->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo"> Reynaldi Neo R</a>
+
+      <div class="inputSearch desktop">
+        <form id="searchForm">
+          <input type="text" placeholder="Type to search..." id="searchInput" />
+          <span> <i class="fa-solid fa-search"></i></span>
+        </form>
+      </div>
+      <nav class="desktop">
+        <ul>
+          <li>
+            <a href="/" class="button-home"
+              ><i class="fa fa-home" aria-hidden="true"></i> Home</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="menuBtn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <!------>
+      <div class="mobile hidden">
+        <nav>
+          <ul>
+            <li>
+              <a href="/" class="button-home"
+                ><i class="fa fa-home" aria-hidden="true"></i> Home</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="inputSearch inputSearchMobile">
+          <form id="searchFormMobile">
+            <input
+              type="text"
+              placeholder="Type to search..."
+              class="placeholder"
+              id="searchInputMobile"
+            />
+            <span> <i class="fa-solid fa-search"></i></span>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <div class="home">
+      <div class="home-text">
+        <h1>Selamat datang di Artikel Tempat Wisata di Jawa Timur</h1>
+        <p>
+          Anda dapat mencari artikel sesuai dengan apa yang anda inginkan
+          berdasarkan judul ataupun penulisnya
+        </p>
+      </div>
+      <h3>by: Reynaldi Neo Ramadhani</h3>
+    </div>
+
+    <main>
+      <div class="card">
+        <a
+          href="https://www.yukbanyuwangi.co.id/mau-wisata-ke-kawah-ijen-wajib-baca-ini.html"
+          target="_blank"
+        >
+          <img src="img/gunungIjen.jpg" alt="g iren" />
+          <h4>Kawah Ijen, Banyuwangi</h4>
+          <div class="publishbyDate">
+            <p class="author">yukbanyuwangi</p>
+            <span>•</span>
+            <p>10 Desember 2021</p>
+          </div>
+          <div class="desc">
+            Kawah Ijen Banyuwangi atau Gunung Ijen adalah objek wisata yang
+            populer bagi kalangan wisatawan terlebih saat musim liburan. Gunung
+            Ijen berada pada ketinggian 2.386 mdpl yang tidak jauh dari Gunung
+            Merapi, Sekaligus merupakan gunung berapi yang pernah meletus tahun
+            1999.
+          </div>
+        </a>
+      </div>
+
+      <div class="card">
+        <a
+          href="https://indonesiakaya.com/pustaka-indonesia/menikmati-keindahan-terbitnya-sang-surya-di-gunung-bromo/"
+          target="_blank"
+        >
+          <img src="img/bromo.jpg" alt="bromo" />
+          <h4>Gunung Bromo, Probolinggo</h4>
+          <div class="publishbyDate">
+            <p class="author">Batiqa hotel</p>
+            <span>•</span>
+            <p>unknown</p>
+          </div>
+          <div class="desc">
+            Gunung Bromo adalah salah satu gunung api yang masih aktif di
+            Indonesia. Gunung yang memiliki ketinggian 2.392 meter di atas
+            permukaan laut ini merupakan destinasi andalan Jawa Timur. Gunung
+            Bromo berdiri gagah dikelilingi kaldera atau lautan pasir seluas 10
+            kilometer persegi.
+          </div>
+        </a>
+      </div>
+
+      <div class="card">
+        <a
+          href="https://www.kompasiana.com/rismaagustia/62543c4fbb4486701d2b8a62/mengenal-lebih-dalam-batu-secret-zoo-dan-museum-satwa-di-kota-batu"
+          target="_blank"
+        >
+          <img src="img/batuSecretZoo.jpg" alt="batu zoo" />
+          <h4>Batu Secret Zoo</h4>
+          <div class="publishbyDate">
+            <p class="author">Risma AgustiaPutri</p>
+            <span>•</span>
+            <p>11 April 2022</p>
+          </div>
+          <div class="desc">
+            Batu Secret Zoo ialah salah satu destinasi wisata di Kota Batu, Jawa
+            Timur . Kebun binatang ini merupakan bagian dari area Jatim Park 2.
+            Dengan luas area luas kira kira mencapai 17 hektar . Batu Secret Zoo
+            termasuk ke dalam kebun binatang modern dengan koleksi satwa lebih
+            dari 300 spesies hewan unik baik dari Indonesia maupun satwa eksotis
+            dari berbagai negara
+          </div>
+        </a>
+      </div>
+
+      <div class="card">
+        <a
+          href="https://kemenparekraf.go.id/ragam-pariwisata/air-terjun-madakaripura-tempat-bertapa-gadjah-mada"
+          target="_blank"
+        >
+          <img src="img/airTerjunMadakaripura.jpg" alt="madakaripura" />
+          <h4>Air Terjun Madakaripura, Probolinggo</h4>
+          <div class="publishbyDate">
+            <p class="author">kemenparekraf</p>
+            <span>•</span>
+            <p>unknown</p>
+          </div>
+          <div class="desc">
+            Terletak di Kabupaten Probolinggo, Jawa Timur, Air Terjun
+            Madakaripura memiliki pesona alam yang tak terbantahkan. Tidak hanya
+            menawarkan keindahan alam saja, Air Terjun Madakaripura juga punya
+            potensi storynomic tourism yang layak untuk dikembangkan. Konon, Air
+            Terjun Madakaripura menjadi tempat bertapa Patih Gadjah Mada untuk
+            terakhir kalinya, sebelum moksa. Mitos ini merujuk pada pemilihan
+            nama Madakaripura yang diambil dari tiga kata yang saling
+            berhubungan.
+          </div>
+        </a>
+      </div>
+
+      <div class="card">
+        <a
+          href="https://ksmtour.com/informasi/tempat-wisata/jawa-timur/museum-angkut-wisata-edukasi-bertema-transportasi-di-malang-jawa-timur.html"
+          target="_blank"
+        >
+          <img src="img/museumAngkut.jpg" alt="museum angkut" />
+          <h4>Museum Angkut, Jatim Park</h4>
+          <div class="publishbyDate">
+            <p class="author">KSM Tour</p>
+            <span>•</span>
+            <p>unknown</p>
+          </div>
+          <div class="desc">
+            Museum Angkut Kota Batu Malang merupakan salah satu kunjungan wisata
+            yang bisa Anda nikmati di Batu Malang. Sama seperti namanya museum
+            ini memamerkan berbagai koleksi sarana angkutan kuno dan modern baik
+            di Indonesia maupun yang terkenal di dunia.
+          </div>
+        </a>
+      </div>
+
+      <div class="card">
+        <a
+          href="https://www.pasuruankab.go.id/potensi/taman-safari-ii-prigen"
+          target="_blank"
+        >
+          <img src="img/tamanSafariPrigen.jpg" alt="safari" />
+          <h4>Taman Safari Prigen, Pasuruan</h4>
+          <div class="publishbyDate">
+            <p class="author">pasuruankab</p>
+            <span>•</span>
+            <p>10 Agustus 2023</p>
+          </div>
+          <div class="desc">
+            Obyek wisata Taman Safari di Kabupaten Pasuruan (TSI II) merupakan
+            salah satu cabang dari Taman Safari di Cisarua Bogor yang terletak
+            di Kecamatan Prigen, di Taman Safari Indonesia II Pasuruan para
+            pengunjung dapat melihat beberapa macam satwa dari beberapa Negara
+            yang hidup seperti habitatnya. Taman safari merupakan obyek wisata
+            nasional yang merupakan Lembaga Konservasi Ex-situ & Pusat
+            Penangkaran Satwa Langka yang mempunyai fungsi Konservasi,
+            Pendidikan, Penelitian, dan Rekreasi.
+          </div>
+        </a>
+      </div>
+
+      <div class="card">
+        <a
+          href="https://katadata.co.id/safrezifitra/berita/61232982727b4/monumen-kapal-selam-surabaya-saksi-kemenangan-operasi-trikora"
+          target="_blank"
+        >
+          <img src="img/monumenKapalSelam.jpg" alt="kapla selam" />
+          <h4>Monumen Kapal Selam, Surabaya</h4>
+          <div class="publishbyDate">
+            <p class="author">Iftitah Nurul Laily</p>
+            <span>•</span>
+            <p>23 Agustus 2021</p>
+          </div>
+          <div class="desc">
+            Monumen Kapal Selam atau disingkat Monkasel merupakan sebuah monumen
+            yang dibangun menggunakan kapal selam asli. Monumen ini terletak di
+            Jalan Pemuda No. 39, Kota Surabaya, Jawa Timur. Data Dinas
+            Pariwisata Jawa Timur mencatat Monumen Kapal Selam dibuat dari kapal
+            selam KRI Pasopati 410. Salah satu kapal selam milik armada Angkatan
+            Laut Republik Indonesia buatan Uni Soviet tahun 1952.
+          </div>
+        </a>
+      </div>
+
+      <div class="card">
+        <a
+          href="https://www.indonesia.travel/id/id/destinasi/java/taman-nasional-baluran"
+          target="_blank"
+        >
+          <img src="img/tamanNasionalBaluran.jpg" alt="baluran" />
+          <h4>Taman Nasional Baluran, Situbondo</h4>
+          <div class="publishbyDate">
+            <p class="author">Indonesia Travel</p>
+            <span>•</span>
+            <p>unknown</p>
+          </div>
+          <div class="desc">
+            Sangat kontras dengan pemandangan hijau nan subur di sebagian besar
+            wilayah di Pulau Jawa, Taman Nasional Baluran yang berlokasi di
+            ujung sebelah timur Pulau Jawa yakni di Kabupaten Situbondo,
+            Provinsi Jawa Timur ini justru merupakan dataran rendah yang
+            didominasi padang sabana, tempat satwa liar dapat bebas berkeliaran
+          </div>
+        </a>
+      </div>
+
+      <div class="card">
+        <a
+          href="https://www.traveloka.com/id-id/explore/destination/mengenal-air-terjun-tumpak-sewu-di-lumajang-yang-indah-dan-terkenal-unik-acc/183717"
+          target="_blank"
+        >
+          <img src="img/airTerjunTumpakSewu.jpg" alt="tumpak sewu" />
+          <h4>Air Terjun Tumpak Sewu, Lumajang</h4>
+          <div class="publishbyDate">
+            <p class="author">Traveloka</p>
+            <span>•</span>
+            <p>23 November 2023</p>
+          </div>
+          <div class="desc">
+            Air Terjun Tumpak Sewu merupakan salah satu air terjun tercantik
+            yang ada di Jawa. Lokasinya berada di Desa Wisata Sidomulyo, Kec.
+            Pronojiwo, Kabupaten Lumajang, Provinsi Jawa Timur. Bagi yang belum
+            tahu, Lumajang ada di timur kota Malang atau tenggara jauh dari kota
+            Surabaya.
+          </div>
+        </a>
+      </div>
+
+      <div class="card">
+        <a href="https://nahwatravel.co.id/alun-alun-kota-batu" target="_blank">
+          <img src="img/alunAlunBatu.jpg" alt="alun alun batu" />
+          <h4>Alun Alun Kota Batu</h4>
+          <div class="publishbyDate">
+            <p class="author">Nahwa Travel</p>
+            <span>•</span>
+            <p>5 Agustus 2023</p>
+          </div>
+          <div class="desc">
+            Alun-Alun Batu ini selalu ramai oleh pengunjung, seperti alun-alun
+            kota pada umumnya. Apalagi bagi wisatawan dari luar kota, rasanya
+            kurang jika tidak mampir ke alun-alun kota yang akan Anda kunjungi.
+            Namun berbeda dengan alun-alun kota lainnya, tempat ini sangat
+            memberikan kesan kota wisata dari kota Batu
+          </div>
+        </a>
+      </div>
+
+      <div class="card">
+        <a
+          href="https://nahwatravel.co.id/wisata-batu-night-spectacular"
+          target="_blank"
+        >
+          <img src="img/batuNightSpectacularShow.jpg" alt="BNS" />
+          <h4>Batu Night Spectacular Show</h4>
+          <div class="publishbyDate">
+            <p class="author">Nahwa Travel</p>
+            <span>•</span>
+            <p>4 Agustus 2023</p>
+          </div>
+          <div class="desc">
+            BNS atau Batu Night Spectacular adalah wisata malam yang terkenal di
+            kota Batu. Berbagai jenis lampu dan warna menghiasi semua sisi BNS,
+            serta berbagai wahana. BNS sangat ideal untuk semua kelompok umur,
+            dari anak-anak hingga orang dewasa, sendiri atau bersama-sama.
+            Kalian bisa mengunjungi BNS Malang sebagai solusi tepat untuk
+            menikmati keindahan suasana malam di kota Batu
+          </div>
+        </a>
+      </div>
+
+      <div class="card">
+        <a
+          href="https://www.liputan6.com/jatim/read/4995580/menikmati-keindahan-telaga-sarangan-magetan-rekomendasi-wisatawan?page=2"
+          target="_blank"
+        >
+          <img src="img/telagaSarangan.jpg" alt="telaga sarangan" />
+          <h4>Telaga Sarangan, Magetan</h4>
+          <div class="publishbyDate">
+            <p class="author">Panji Prayitno</p>
+            <span>•</span>
+            <p>26 Juni 2022</p>
+          </div>
+          <div class="desc">
+            Telaga Sarangan Magetan menyuguhkan kesejukan dan ketenangan untuk
+            pengunjung yang membutuhkan healing menikmati hidup ini. Berbagai
+            spot menarik yang instagramable bisa kamu coba saat berkunjung ke
+            Telaga Sarangan. Kamu bisa membagikannya di media sosial sekaligus
+            memperkenalkan wisata lokal yang mendunia ini.
+          </div>
+        </a>
+      </div>
+
+      <div class="card">
+        <a
+          href="https://indonesiakaya.com/pustaka-indonesia/pantai-klayar-kekayaan-tersembunyi-di-bumi-pacitan/"
+          target="_blank"
+        >
+          <img src="img/pantaiKlayar.jpg" alt="pantai klayar" />
+          <h4>Pantai Klayar, Pacitan</h4>
+          <div class="publishbyDate">
+            <p class="author">Indonesia Kaya</p>
+            <span>•</span>
+            <p>unknown</p>
+          </div>
+          <div class="desc">
+            Tak hanya dikenal sebagai Kota Seribu Gua, Pacitan juga dikenal
+            melalui keindahan pantai-pantai yang ada di wilayahnya dan Pantai
+            Klayar merupakan salah satunya. Hamparan pasir putih yang membentang
+            dengan ombak sejernih kristal memecah di bibir pantai, diapit dengan
+            kedua bukit karang di sisi kanan dan kirinya.
+          </div>
+        </a>
+      </div>
+
+      <div class="card">
+        <a
+          href="https://www.idntimes.com/travel/destination/putri-intan-nur-fauziah/paralayang-batu-1"
+          target="_blank"
+        >
+          <img src="img/paralayangBatu.jpg" alt="paralayang" />
+          <h4>Wisata Paralayang Batu</h4>
+          <div class="publishbyDate">
+            <p class="author">Putri Intan Nur Fauziah</p>
+            <span>•</span>
+            <p>15 Juni 2022</p>
+          </div>
+          <div class="desc">
+            Paralayang Batu dibuka untuk wisatawan dari seluruh wilayah. Kini
+            sudah banyak biro perjalanan yang menawarkan paket wisata untuk ke
+            sini. Namun, sebelum berkunjung ke Paralayang Batu, silakan simak
+            ulasan lengkapnya di bawah ini.
+          </div>
+        </a>
+      </div>
+
+      <div class="card">
+        <a
+          href="https://www.cnnindonesia.com/gaya-hidup/20220907161140-275-844659/wahana-dan-harga-tiket-jatim-park-1-2-3"
+          target="_blank"
+        >
+          <img src="img/jatimPark.jpg" alt="jatim park" />
+          <h4>Jatim Park, Batu</h4>
+          <div class="publishbyDate">
+            <p class="author">CNN Indonesia</p>
+            <span>•</span>
+            <p>9 September 20222</p>
+          </div>
+          <div class="desc">
+            Jawa Timur Park atau yang lebih dikenal dengan Jatim Park (JTP)
+            adalah destinasi wisata buatan yang berada di Kota Batu, Malang.
+            Destinasi wisata ini merupakan salah satu ikon wisata di Jawa Timur.
+            Objek wisata yang mengusung tema rekreasi dan edukasi ini terbagi
+            menjadi 3 bagian, yaitu Jatim Park 1, Jatim Park 2, dan Jatim Park
+            3.
+          </div>
+        </a>
+      </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
